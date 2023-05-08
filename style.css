@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;  
+}
+
+.container{
+    width: 1120px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+h1.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul.nav-menu li{
+    padding: 20px;
+
+}
+
+ul.nav-menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 8px 13px;
+    text-decoration: uppercase;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+ul.nav-menu li:last-child{
+    padding: 0;
+}
+
+.home-txt h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20pz 0;
+    color:#000000;
+}
+
+.home-txt span{
+    font-size: 22px;
+    text-decoration: capitalize;
+    font-weight: 600;
+    color:#000000;
+}
+
+.home-txt h1{
+    font-size: 60px;
+    padding: 20px 0;
+    color: #000000;
+    position: relative;
+}
+
+.home-txt h1::after{
+    content: '';
+    width: 150px;
+    height: 4px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.home-txt{
+    width: auto450px;
+}
+
+.home-txt p{
+    font-size: 16px;
+    color:#000000;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.home-txt a{
+    text-decoration: none;
+    font-size: 16px;
+    text-decoration: uppercase;
+    color:#ffffff;
+    background: #000000;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.home-txt h2 span{
+    padding-left: 8px;
+    border-right: 3px solid;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.home-img{
+    width: 450px;
+    height: 450px;
+    border: 15px solid;
+    border-color: #000000;
+    border-radius: 50% 50% 0% 50%;
+    overflow: hidden;
+   
+}
+
+.home-img img{
+   width: 100%;
+   height: 100%; 
+}
+
+.home-img-border::after{
+    content: '';
+    width: 1800px;
+    position: absolute;
+    border: 15px solid;
+    border-color: #000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 310ppx;
+}
+
+section.home{
+    padding: 40px 0px;
+    overflow: hidden;
+}
+
+nav{
+    pad: 10px 0;
+}
+
+ul.nav-menu li a:hover{
+    color: #fa0707;
+}
