@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+     <!-- Css Stylesheet -->
+     <link rel="stylesheet" href="contact.css">
+     
+     
+    </head>
+    <div class="contact">
+        <main>
+        <nav>
+            <div class="container d-flex justify-space-between">
+                <h1 class="logo">Clar<span class="color">isse</span></h1>
+                <ul class="nav-menu d-flex">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="education.html">Education</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+       <!-- ---------Contact Form-------- -->
+       <div class="container-contact">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:55px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>    
+
+    </div>
+    <footer id="footer">
+        Copyright &copy; 2023 | Clarisse Remorosa
+    </footer>
+
+</html>

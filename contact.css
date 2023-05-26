@@ -1,0 +1,135 @@
+/*Home Page*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* body background color*/
+body{
+    font-family: sans-serif;
+    background-color: #000000;
+}
+
+/* style for the container for the whole page*/
+.container{
+    width: 1120px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+/*for the full-screen width*/
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+h1.logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+ul.nav-menu li{
+    padding: 20px;
+
+}
+
+ul.nav-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 13px;
+    text-decoration: uppercase;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+ul.nav-menu li:last-child{
+    padding: 0;
+}
+.color{
+    color:#ff0000;
+}
+/* Contact */
+.container-contact {
+    width: 450px;
+    margin: auto;
+}
+.contact-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.column {
+    text-align: left;
+}
+
+.column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.column label {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.column input[type="text"],
+.column select,
+.column textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.column textarea {
+    height: 120px;
+}
+
+.column input[type="submit"] {
+    background-color:   #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.column input[type="submit"]:hover {
+    background-color: #ff7c30;
+}
+
+
+#footer{
+    clear: both;
+    text-align: center;
+    color:#ffffff;
+    margin-top: 105px;
+}
